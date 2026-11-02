@@ -1,0 +1,21 @@
+# Dependencies and generated output
+/node_modules/
+/.next/
+/out/
+/coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local secrets; the example is intentionally tracked
+.env*
+!.env.example
+
+# Local tools, deployment state and logs
+/.npm-cache/
+/.vercel/
+*.log
+.DS_Store
+Thumbs.db
+/supabase/.temp/
+/supabase/.branches/
+/supabase/signing_keys.json
